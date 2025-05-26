@@ -12,3 +12,21 @@ const forcaSenha = document.querySelector('.forca');
 
 botoes[0].onclick = diminuiTamanho;
 botoes[1].onclick = aumentaTamanho;
+
+function diminuiTamanhoSenha() {
+    if (tamanhoSenha > 1) {
+        //tamanhoSenha = tamanhoSenha -1
+        tamanhoSenha--;
+    }
+
+}
+
+function aumentaTamanhoSenha() {
+    if (tamanhoSenha < 20) {
+        //tamanhoSenha = tamanhoSenha +1
+        tamanhoSenha++;
+    }
+
+}
+
+
